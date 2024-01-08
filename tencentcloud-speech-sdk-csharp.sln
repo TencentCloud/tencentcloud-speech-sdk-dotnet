@@ -5,23 +5,39 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{6C4BB71B-8FA3-43A4-8A6D-C2006C30B4F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "realtime-asr", "examples\realtime-asr\realtime-asr.csproj", "{B8A64B36-2E86-4FE6-A424-1A09CDEBF8C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "realtime-asr", "examples\realtime-asr\realtime-asr.csproj", "{B8A64B36-2E86-4FE6-A424-1A09CDEBF8C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asr", "sdk\asr\asr.csproj", "{4D44A77E-61E1-4CBD-B7D0-86EEDF3222F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "microphone_realtime_asr", "examples\microphone_realtime_asr\microphone_realtime_asr.csproj", "{EBD08D9D-B328-4C0C-844A-D5E6F56DBD69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B8A64B36-2E86-4FE6-A424-1A09CDEBF8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B8A64B36-2E86-4FE6-A424-1A09CDEBF8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8A64B36-2E86-4FE6-A424-1A09CDEBF8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8A64B36-2E86-4FE6-A424-1A09CDEBF8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D44A77E-61E1-4CBD-B7D0-86EEDF3222F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D44A77E-61E1-4CBD-B7D0-86EEDF3222F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D44A77E-61E1-4CBD-B7D0-86EEDF3222F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D44A77E-61E1-4CBD-B7D0-86EEDF3222F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD08D9D-B328-4C0C-844A-D5E6F56DBD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD08D9D-B328-4C0C-844A-D5E6F56DBD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD08D9D-B328-4C0C-844A-D5E6F56DBD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD08D9D-B328-4C0C-844A-D5E6F56DBD69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B8A64B36-2E86-4FE6-A424-1A09CDEBF8C0} = {6C4BB71B-8FA3-43A4-8A6D-C2006C30B4F6}
+		{EBD08D9D-B328-4C0C-844A-D5E6F56DBD69} = {6C4BB71B-8FA3-43A4-8A6D-C2006C30B4F6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DA21CF2-BD42-49A3-A951-2B0D9A472423}
 	EndGlobalSection
 EndGlobal
